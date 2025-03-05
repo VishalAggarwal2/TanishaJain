@@ -1,21 +1,15 @@
 export const siteMetadata = {
-  title: 'Dale Larroder',
-  author: 'Dale Larroder',
-  headerTitle: 'dalelarroder',
+  title: 'Tanisha Jain',
+  author: 'Tanisha Jain',
+  headerTitle: 'TanishaJain',
   description: 'Software Developer at Aphex',
   language: 'en-us',
-  theme: 'dark', // system, dark or light
-  siteUrl: 'https://dalelarroder.com',
-  siteRepo: 'https://github.com/dlarroder/dalelarroder-blog',
+  theme: 'dark', // system, dark or
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.webp',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'hi@dalelarroder.com',
-  github: 'https://github.com/dlarroder',
-  twitter: 'https://x.com/dalelarroder',
-  facebook: 'https://facebook.com/dlarroder',
-  linkedin: 'https://www.linkedin.com/in/dale-larroder/',
-  spotify: 'https://open.spotify.com/user/12162121994?si=e685b3546f414967',
-  steam: 'https://steamcommunity.com/id/dlarroder/',
+  email: 'Tanishacse26@gmail.com',
+  github: 'https://leetcode.com/u/Tanishajain16/',
+  linkedin: 'https://www.linkedin.com/in/tanisha-jain-06168b256/',
   locale: 'en-US',
 };

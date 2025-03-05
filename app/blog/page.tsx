@@ -9,7 +9,6 @@ export const metadata = {
 
 export default function Page() {
   const posts = getBlogPosts();
-
   return (
     <MainLayout>
       <section>

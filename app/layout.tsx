@@ -11,8 +11,8 @@ import { ReactNode } from 'react';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Dale Larroder',
-    default: 'Dale Larroder',
+    template: '%s | Tanisha Jain',
+    default: 'Tanisha Jain',
   },
   description: 'I build things for the web.',
   metadataBase: new URL('https://dalelarroder.com'),

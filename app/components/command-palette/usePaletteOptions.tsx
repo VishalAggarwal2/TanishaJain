@@ -3,13 +3,7 @@
 import { useTheme } from 'next-themes';
 import { useRouter } from 'next/navigation';
 import { ReactNode } from 'react';
-import {
-  HiOutlineDocumentAdd,
-  HiOutlineDocumentDuplicate,
-  HiOutlineHome,
-  HiOutlinePencil,
-  HiOutlineUser,
-} from 'react-icons/hi';
+import { HiOutlineDocumentDuplicate, HiOutlineHome, HiOutlineUser } from 'react-icons/hi';
 import { TbBolt, TbBoltOff } from 'react-icons/tb';
 import { getBlogPosts } from '../../blog/utils';
 
@@ -47,22 +41,11 @@ export default function usePaletteOptions() {
       icon: <HiOutlineHome />,
       onSelect: (v) => router.push(v),
     },
-    {
-      id: '/blog',
-      name: 'Blog',
-      icon: <HiOutlinePencil />,
-      onSelect: (v) => router.push(v),
-    },
+
     {
       id: '/about',
       name: 'About',
       icon: <HiOutlineUser />,
-      onSelect: (v) => router.push(v),
-    },
-    {
-      id: '/uses',
-      name: 'Uses',
-      icon: <HiOutlineDocumentAdd />,
       onSelect: (v) => router.push(v),
     },
   ];

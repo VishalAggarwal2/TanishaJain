@@ -20,27 +20,27 @@ export const workTiles: WorkTile[] = [
   },
   {
     description: 'I built',
-    title: 'Aphex Field',
+    title: 'CuraBot - Medical ChatBot',
     image: {
-      src: '/static/images/field-app.webp',
+      src: '/static/images/CuraBot.png',
       width: 600,
       height: 554,
     },
   },
   {
-    description: `I maintained`,
-    title: 'Aphex Planner',
+    description: `I built`,
+    title: 'Sentiment Analysis',
     image: {
-      src: '/static/images/planner-app.webp',
+      src: '/static/images/sentiment.png',
       width: 600,
       height: 717,
     },
   },
   {
-    description: `I built`,
-    title: 'Aphex Publication',
+    description: `I Attended`,
+    title: 'SkilCraft Technology',
     image: {
-      src: '/static/images/publication-app.webp',
+      src: '/static/images/skillcraft.png',
       width: 600,
       height: 717,
     },

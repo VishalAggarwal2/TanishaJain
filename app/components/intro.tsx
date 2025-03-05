@@ -58,7 +58,9 @@ export default function Intro() {
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            I&apos;m passionate about cutting-edge, pixel perfect UI and intuitively implemented UX.
+            I specialize in building scalable, responsive, and dynamic web applications. From
+            concept to deployment, I ensure every project is a perfect blend of functionality and
+            aesthetics
           </span>
         </div>
       </div>
