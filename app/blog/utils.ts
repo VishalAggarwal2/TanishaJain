@@ -21,7 +21,20 @@ export type Metadata = {
 function parseFrontmatter(fileContent: string) {
   const frontmatterRegex = /---\s*([\s\S]*?)\s*---/;
   const match = frontmatterRegex.exec(fileContent);
-  const frontMatterBlock = match![1];
+  // If no frontmatter is present, skip this file by marking it as draft
+  if (!match) {
+    return {
+      metadata: {
+        title: 'Untitled',
+        publishedAt: new Date(0).toISOString(),
+        summary: '',
+        draft: true,
+      },
+      content: fileContent.trim(),
+    };
+  }
+
+  const frontMatterBlock = match[1];
   const content = fileContent.replace(frontmatterRegex, '').trim();
   const frontMatterLines = frontMatterBlock.trim().split('\n');
   const metadata: Partial<Metadata> = {};
