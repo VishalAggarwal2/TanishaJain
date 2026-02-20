@@ -14,7 +14,8 @@ export const metadata: Metadata = {
     template: '%s | Tanisha Jain',
     default: 'Tanisha Jain',
   },
-  description: 'I build things for the web.',
+  description:
+    'Aspiring Manual Automation & AI Solutions Engineer intern, building AI-powered automation workflows with Python, n8n, Zapier, Puppeteer, Selenium, and JavaScript.',
   metadataBase: new URL('https://dalelarroder.com'),
 };
 

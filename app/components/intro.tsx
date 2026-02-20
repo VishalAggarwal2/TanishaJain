@@ -46,21 +46,22 @@ export default function Intro() {
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-10 py-24 text-4xl font-semibold tracking-tight md:py-28 md:text-6xl lg:px-20 lg:py-3 lg:text-7xl">
         <div className="leading-[1.15]">
           <div className="introText" style={{ opacity: opacityForBlock(progress, 0) }}>
-            I love coding.
+            I love automating repetitive work.
           </div>
           <span
             className="introText inline-block after:content-['_']"
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            I use my passion and skills to build digital products and experiences.
+            I use my passion and skills to turn manual, error-prone steps into reliable automation
+            workflows.
           </span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            I specialize in building scalable, responsive, and dynamic web applications. From
-            concept to deployment, I ensure every project is a perfect blend of functionality and
-            aesthetics
+            I specialize in building AI-assisted solutions with Python, n8n, Zapier, Puppeteer,
+            Selenium, and JavaScript that save time, reduce mistakes, and scale with real-world
+            usage.
           </span>
         </div>
       </div>

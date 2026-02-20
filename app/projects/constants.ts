@@ -2,11 +2,11 @@ import { Project } from './types';
 
 export const projects: Project[] = [
   {
-    title: 'CuraBot-Medical ChatBot',
-    src: 'CuraBot.png',
-    color: '#dbeafe',
-    url: 'https://hospital-frontend-eteu.vercel.app',
-    role: 'Fullstack Developer',
+    title: 'Email Automation Workflows',
+    src: 'automation.png',
+    color: '#d1fae5',
+    url: 'https://github.com/n8n-io/n8n',
+    role: 'Automation (n8n, Python, Zapier) – reducing manual work with AI-powered workflows',
   },
   {
     title: 'Sentiment Analysis',

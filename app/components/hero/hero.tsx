@@ -25,8 +25,9 @@ export default function Hero() {
   return (
     <div>
       <h1 className="sr-only">
-        Hello I&apos;m Tanisha Jain, I&apos;m a software developer, and I love building things for
-        the web.
+        Hello I&apos;m Tanisha Jain, an aspiring Manual Automation &amp; AI Solutions Engineer
+        intern, focused on building automation workflows and AI-powered tools that reduce manual
+        work.
       </h1>
       <div className="relative z-10 flex h-[calc(100vh-81px)] items-center md:h-[calc(100vh-116px)]">
         <div className="mx-auto w-screen max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-0">
@@ -36,7 +37,10 @@ export default function Hero() {
                 Tanisha Jain
               </h1>
               <h2 className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl">
-                I build things for the web.
+                Manual Automation &amp; AI Solutions Engineer
+                <span className="block text-xl font-normal sm:text-3xl md:text-3xl xl:text-4xl">
+                  Reducing manual work with AI-powered automation
+                </span>
               </h2>
               <Link
                 href="/about"
